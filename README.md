@@ -1,4 +1,4 @@
-# ⛅ SkyCast – A Full-Stack Weather Application
+# SkyCast – A Full-Stack Weather Application
 
 SkyCast is a full-stack weather application built with Next.js that delivers real-time weather conditions, hourly and daily forecasts, air quality information, and interactive map-based location search. By combining Server-Side Rendering (SSR) and Client-Side Rendering (CSR), it provides fast performance, improved SEO, and a seamless user experience.
 
