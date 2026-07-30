@@ -1,67 +1,97 @@
-# SkyCast - Weather App
+# ⛅ SkyCast – A Full-Stack Weather Application
 
-The weather app created with **Next.js v15** using **Weatherapi**.
+SkyCast is a full-stack weather application built with Next.js that delivers real-time weather conditions, hourly and daily forecasts, air quality information, and interactive map-based location search. By combining Server-Side Rendering (SSR) and Client-Side Rendering (CSR), it provides fast performance, improved SEO, and a seamless user experience.
 
-- Get Current Weather, Daily Forecast, Hourly Forecast and Air Quality
-- Search location
-- Select location on map
+---
 
-## Techs
+## ✨ Features
 
-<table>
-  <tr align="center">
-    <td>Next.js</td>
-    <td>React.js</td>
-    <td>Typescript</td>
-  </tr>
-  <tr align="center">
-    <td><img src="https://i.postimg.cc/D07nJ6RW/next.png" width="40px" /></td>
-    <td><img  src="https://i.postimg.cc/7LR71cSh/react.png" width="35px"/></td>
-    <td><img src="https://i.postimg.cc/wjnzcgSY/ts.png" width="33px" /></td>
-  </tr>
-  <tr align="center">
-    <td>Tailwindcss</td>
-    <td>Framer Motion</td>
-    <td>Leaflet.js</td>
-  </tr>
-  <tr align="center">
-    <td><img src="https://i.postimg.cc/3NTknHN8/tailwind.png" width="40px" /></td>
-    <td><img  src="https://i.postimg.cc/8k0c7QtM/framer-motion.png" width="35px"/></td>
-    <td><img src="https://i.postimg.cc/C5XxXkzm/leaflet.png" width="60px" /></td>
-  </tr>
-  <tr align="center">
-    <td>React Query</td>
-    <td>Axios</td>
-    <td>React Icons</td>
-  </tr>
-  <tr align="center">
-    <td><img src="https://i.postimg.cc/Jn5WLJtR/react-query.png" width="40px" /></td>
-    <td><img  src="https://i.postimg.cc/wBPkjbyV/axios.png" width="60px"/></td>
-    <td><img  src="https://i.postimg.cc/YqFvhqVW/react-icons.png" width="40px"/></td>
-  </tr>
-</table>
+### 1. 🌤️ Real-Time Weather & Forecasts
+Integrated WeatherAPI to provide current weather conditions, hourly forecasts, daily forecasts, and air quality information.
 
-## Features
+### 2. 🗺️ Interactive Location Search
+Implemented location search with a customized Leaflet map, allowing users to search for locations or select them directly from the map to view weather information.
 
-- Implementing both **server side** and **client side** fetching data.
-- **Pre-rendering** elements using next.js power and **high SEO**.
-- Implementing customized map with **Leaflet**.
-- Generating Dynamic Metadata based on the page.
-- Using **React Query** power on client side fetching.
-- Using **Framer Motion** for smooth animations and implementing withAnimation **HOCs**.
-- Using **Context Api** for state management.
-- Using **Axios Instance** for handling all the requests faster and better.
-- Using **Next Api Routes** to handle client side requests safely.
-- Using **React Icons** for flexible icons.
+### 3. 🚀 Optimized Rendering & SEO
+Leveraged Next.js Server-Side Rendering (SSR), Client-Side Rendering (CSR), pre-rendering, and dynamic metadata generation to improve performance and search engine optimization.
 
-## Usage
+### 4. ⚡ Efficient Data Fetching
+Implemented server-side and client-side data fetching using React Query and Axios to enable efficient API communication and improved application performance.
 
-### Environment Variables
+### 5. 🎨 Modern User Interface
+Enhanced the user experience with smooth Framer Motion animations, reusable animation HOCs, and flexible React Icons for an engaging interface.
 
-- WEATHERAPI_APIKEY=your_api_key_here  # (Create one at https://www.weatherapi.com/)
+### 6. 🏗️ Application Architecture
+Managed application state using the Context API and utilized Next.js API Routes to securely handle client-server communication.
 
-- Enable API to get real data or use the constants.
-  - 1: true, 0: false
-  - ENAPI=1   # set to 1 to enable API, 0 to use mock data
+---
 
+## 🛠️ Tech Stack
 
+Next.js, React.js, Typescript, Tailwind CSS, Framer Motion, Leaflet.js, React Query, Axios, React Icons
+
+---
+
+## ⚙️ Usage
+
+### 🔑 Environment Variables
+
+Create a `.env` file in the root directory and add the following variables:
+
+```env
+WEATHERAPI_APIKEY=your_api_key_here  # (Create one at https://www.weatherapi.com/)
+
+# Enable API to get real data or use mock data
+# 1: true, 0: false
+ENAPI=1   # set to 1 to enable API, 0 to use mock data
+```
+
+| Variable | Description | Values |
+|----------|-------------|--------|
+| `WEATHERAPI_APIKEY` | Your API key from [WeatherAPI](https://www.weatherapi.com/) | String |
+| `ENAPI` | Toggle between live API data and mock data | `1` = enabled, `0` = disabled |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/prabinb50/SkyCast-WeatherApp.git
+
+# Navigate into the project directory
+cd SkyCast-WeatherApp
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m "Add feature"
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open source and available for learning purposes.
