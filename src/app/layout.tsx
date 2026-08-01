@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Prabin Joshi', url: 'https://github.com/prabinb50' }],
 	creator: 'Prabin Joshi',
 	applicationName: 'SkyCast',
-	keywords: ['weather app', 'next.js', 'weather api', 'forecast weather app'],
+	keywords: ['weather app', 'next.js', 'weather api', 'forecast weather app', 'real-time weather'],
 }
 
 const RootLayout = ({
